@@ -15,7 +15,8 @@ body {
 }
 
 .topPageLogo {
-    padding-left: 85px;
+    padding-top: 15px;
+    padding-left: 200px;
     display: inline;
     padding-bottom: 15px;
 }
@@ -35,8 +36,8 @@ body {
 }
 
 .topNavRight {
-    padding-top: 15px;
-    padding-right: 100px;
+    padding-top: 30px;
+    padding-right: 200px;
 }
 
 .pageLinksTopRight {
@@ -51,17 +52,31 @@ body {
     background-image: url(img/spikes.png);
     padding: 62px 50px;
     height: 450px;
+    margin: 0px 80px 0px 80px;
 }
 
-.columnContainer {
+.textContainer {
     display: flex;
     flex-direction: column;
     flex: 2;
     margin-right: 60px;
+    max-width: 500px;
 }
 
 .healthyTitle {
     font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.theText {
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.browseArrow {
+    font-size: 20px;
 }
 
 .imgContainer {
@@ -100,6 +115,7 @@ body {
     text-align: center;
     width: 33%;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .greenBox {
@@ -109,4 +125,5 @@ body {
     text-align: right;
     font-weight: bold;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
