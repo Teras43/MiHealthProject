@@ -3,6 +3,10 @@ a {
     color: #333333;
 }
 
+body {
+    margin: 0 auto;
+}
+
 .topBar {
     display: flex;
     flex-direction: row;
@@ -17,11 +21,13 @@ a {
 }
 
 .miPart {
-    color: red;
+    color: #ed3f19;
+    font-weight: bold;
 }
 
 .healthPart {
-    color: #83e90f;
+    color: #99da10;
+    font-weight: bold;
 }
 
 .mihealthTop {
@@ -50,8 +56,12 @@ a {
 .columnContainer {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 2;
     margin-right: 60px;
+}
+
+.healthyTitle {
+    font-size: 50px;
 }
 
 .imgContainer {
@@ -64,9 +74,39 @@ a {
     align-items: flex-end;
 }
 
-.foodimg1 {
+.foodImg1 {
     background-image: url(img/apple-breakfast-quinoa-7.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
+}
+
+.foodImg2 {
+    background-image: url(img/pasta-salad-recipe-for-lunch.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.foodImg3 {
+    background-image: url(img/shrimp_screenshot_01.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.whiteBox {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    text-align: center;
+    width: 33%;
+    font-size: 15px;
+}
+
+.greenBox {
+    background-color: #99da10;
+    width: 50%;
+    padding: 15px 15px 15px 0px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
 }
