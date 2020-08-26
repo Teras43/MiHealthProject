@@ -3,6 +3,13 @@ a {
     color: #333333;
 }
 
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .topPageLogo {
     padding-left: 85px;
     display: inline;
@@ -22,7 +29,6 @@ a {
 }
 
 .topNavRight {
-    float: right;
     padding-top: 15px;
     padding-right: 100px;
 }
@@ -35,6 +41,32 @@ a {
 
 .generalBody  {
     display: flex;
+    flex-direction: row;
+    background-image: url(img/spikes.png);
+    padding: 62px 50px;
+    height: 450px;
+}
+
+.columnContainer {
+    display: flex;
     flex-direction: column;
-    
+    flex: 1;
+    margin-right: 60px;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: black;
+    margin: 0px 8px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.foodimg1 {
+    background-image: url(img/apple-breakfast-quinoa-7.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
