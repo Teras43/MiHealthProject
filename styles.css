@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.topPageLogo {
+    padding-left: 85px;
+    display: inline;
+    padding-bottom: 15px;
+}
+
+.miPart {
+    color: red;
+}
+
+.healthPart {
+    color: #83e90f;
+}
+
+.mihealthTop {
+    font-size: 35px;
+}
+
+.topNavRight {
+    float: right;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+.pageLinksTopRight {
+    font-size: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+
+.generalBody  {
+    display: flex;
+    flex-direction: column;
+    
+}
