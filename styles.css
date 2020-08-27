@@ -3,18 +3,36 @@ a {
     color: #333333;
 }
 
+a:active {
+    color: #ed3f19;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .topPageLogo {
-    padding-left: 85px;
+    padding-top: 15px;
+    padding-left: 200px;
     display: inline;
     padding-bottom: 15px;
 }
 
 .miPart {
-    color: red;
+    color: #ed3f19;
+    font-weight: bold;
 }
 
 .healthPart {
-    color: #83e90f;
+    color: #99da10;
+    font-weight: bold;
 }
 
 .mihealthTop {
@@ -22,19 +40,104 @@ a {
 }
 
 .topNavRight {
-    float: right;
-    padding-top: 15px;
-    padding-right: 100px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 200px;
 }
 
 .pageLinksTopRight {
-    font-size: 20px;
-    padding-right: 20px;
+    font-size: 18px;
+    padding-right: 40px;
     padding-bottom: 100px;
 }
 
 .generalBody  {
     display: flex;
+    flex-direction: row;
+    background-image: url(img/spikes.png);
+    padding: 62px 50px;
+    height: 500px;
+    margin: 0px 80px 0px 80px;
+}
+
+.textContainer {
+    display: flex;
     flex-direction: column;
-    
+    flex: 1;
+    margin-right: 80px;
+    max-width: 500px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.healthyTitle {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 48px;
+}
+
+.theText {
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.browseArrow {
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: black;
+    margin: 0px 8px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.foodImg1 {
+    background-image: url(img/apple-breakfast-quinoa-7.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.foodImg2 {
+    background-image: url(img/pasta-salad-recipe-for-lunch.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.foodImg3 {
+    background-image: url(img/shrimp_screenshot_01.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.whiteBox {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    text-align: center;
+    width: 33%;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.greenBox {
+    background-color: #99da10;
+    width: 50%;
+    padding: 15px 15px 15px 0px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
