@@ -3,6 +3,10 @@ a {
     color: #333333;
 }
 
+a:active {
+    color: #ed3f19;
+}
+
 body {
     margin: 0 auto;
 }
@@ -69,17 +73,24 @@ body {
 .healthyTitle {
     font-size: 60px;
     margin-top: 0px;
-    margin-bottom: 3px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 48px;
 }
 
 .theText {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 27px;
     margin-top: 3px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .browseArrow {
     font-size: 20px;
+}
+
+h3 {
+    margin-top: 15px;
 }
 
 .imgContainer {
